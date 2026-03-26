@@ -1,4 +1,4 @@
-#identifying vowels and consonants
+0#identifying vowels and consonants
 ''' a=input("Enter a letter")
 if a.lower() in "aeiou":
     print("VOWELS")
@@ -42,11 +42,11 @@ print(lis_num)'''
 
 
 #pop
-
+'''
 list_num=[1,2,3,"avanthi"]
 print(list_num)
 list_num.pop(3)
-print(list_num)
+print(list_num)'''
 
 
 
