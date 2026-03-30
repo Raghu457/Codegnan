@@ -1,0 +1,17 @@
+#palindrome
+a=input()
+rev=""
+for i in a:
+    rev=i+rev
+if rev==a:
+    print("Palindrome")
+else:
+    print("Not a Palindrome")
+
+#even or odd number
+a=int(input())
+for i in range(1,a+1):
+    if i%2==0:
+        print("Even:",i)
+    else:
+        print("Odd:",i)
