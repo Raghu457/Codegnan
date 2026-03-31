@@ -88,13 +88,18 @@ if rev==a:
 else:
     print("Not a Palindrome")
 '''
-
+#even and odd numbers
+'''
 a=int(input())
 for i in range(1,a+1):
     if i%2==0:
         print("Even:",i)
     else:
         print("Odd:",i)
+'''
+ 
+
+
         
     
 
