@@ -55,19 +55,20 @@ while --- this a combination for and if statements, if we did not end the loop i
 '''
 
 #fibnacci series
-'''
+
 user_input=int(input())
 a=0
 b=1
 c=0
 
-for i in range(1,user_input+1):
-    print(a,end=" ")
+for i in range(1,user_input):
+    
     c=a+b
     a,b=b,c
+print(a,end=" ")    
+
+
 '''
-
-
 #list operations
 a=[3,2,1,3]
 a.append(4)
@@ -76,6 +77,7 @@ a.sort()
 a.count(3)
 a.copy()
 print(a)
+'''
     
 
 

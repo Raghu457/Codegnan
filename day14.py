@@ -63,7 +63,8 @@ def isprime(a):
 
 a=int(input())
 print(isprime(a))
-'''
+
+
 #Palindrome number
 def palin(a):
     rev=""
@@ -75,7 +76,16 @@ def palin(a):
       print("No")
 a=input()        
 palin(a)        
-        
+'''
+
+
+
+
+
+
+
+
+
         
     
         
