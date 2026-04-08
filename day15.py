@@ -58,9 +58,12 @@ any(num_2=7,num=0,num_3=90)
 --->Adding a star (*) before the parameter name in the function ,recieve a tuple of arguments and can access items with the indexes
 '''
 
+'''
 def name(*raghu):
     print(raghu)
-name(1,2,3)    
+name(1,2,3)
+'''
+
 
 
 
