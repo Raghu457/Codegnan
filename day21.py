@@ -1,7 +1,7 @@
 #TASK
-
-#1
 '''
+#1
+
 import pyttsx3
 engine = pyttsx3.init()
 
@@ -12,7 +12,6 @@ def task_speaking_test(text):
 task_speaking_test("Hello, My dear buddy ")
 
 '''
-
 
 #2
 '''
@@ -40,8 +39,7 @@ audio.runAndWait()
 '''
 
 #3
-
-
+'''
 import pyttsx3
 audio = pyttsx3.init()
 
@@ -69,7 +67,7 @@ print(response)
 task_speaking_test(response)
 audio.runAndWait()
 
-
+'''
 
 
 
