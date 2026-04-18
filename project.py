@@ -33,8 +33,6 @@ else:
 
 
 
-'''
-
 ICIC_Raghu_AC_details={"Name":"Raghu","ATM PIN": "9100","Balance":5000,"Transaction History":[]}
 print("Welcome to ICIC ATM")
 print("Pls insert your ATM card")
@@ -75,7 +73,7 @@ if len(ICIC_user_pin)==4:
                 ICIC_Raghu_AC_details ["ATM PIN"] = new_pin
                 print("Your ATM pin updated succesfully")
                 
-            attempts_remaining==3
+            attempts_remaining=3
             while attempts_remaining > 0:
              old_pin = input("Enter your old ATM PIN: ")
              if len(old_pin)==4:
@@ -83,8 +81,14 @@ if len(ICIC_user_pin)==4:
                    pin_change = input("Enter a new 4 digits ATM PIN: ")
                    user_choice["ATM PIN"]=pin_change
                    print("new pin is updated")
-        elif user_choice==4:
-            transaction_amount=input("Enter the transaction amount")
+             else:
+                 remaining_attempts-=1
+                 if remaining_attempt>0:
+                     print(f"Invalid pin entered and You have {remaining_attempts}")
+                 else:
+                     print(f"You've run out your attempts,")
+        #elif user_choice==4:
+           #transaction_amount=input("Enter the transaction amount")
             
             else:
                 print("you entered pin is incorrect")
@@ -94,7 +98,6 @@ if len(ICIC_user_pin)==4:
 else:
     print("Plz enter 4 digit pin")
 
-'''
 
 
 
@@ -229,5 +232,5 @@ else:
 '''
 
 
-n=int(input())
-for 
+    
+
