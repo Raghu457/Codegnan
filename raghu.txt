@@ -1,0 +1,3 @@
+Linked list--Simply we can say it is  collection of nodes which it is not necessary to store in adjacent memory locations
+
+----and single node contain two different fields one is data field another one is address or next field which is address of next data field

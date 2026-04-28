@@ -30,6 +30,8 @@ obj.close()
 2."w"--write
 -------------
 -->To write the text into the file we will use this mode and it will create the file if it doesnt exist
+python.exe
+
 
 obj=open("demo.txt","w")
 obj.write("I am from visakhapatnam.")
@@ -90,43 +92,13 @@ print(obj.readlines())
 obj.close
 '''
 
+'''
 import os
 os.remove("some.txt")
+'''
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+with open("demo.txt","r") as any:
+    print(any.read())
 
 
 
